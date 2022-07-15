@@ -26,21 +26,6 @@ const images = [
   },
 ];
 
-/* const addNewImg = document.querySelector(".gallery"); */
-
-/* const addImg = images.map((image) => {
-  const newImage = document.createElement("img");
-  newImage.src = image.url;
-  newImage.alt = image.alt;
-
-  const li = document.createElement("li");
-  li.append(newImage);
-  console.log(li);
-  return li;
-});
-
-addNewImg.append(...addImg); */
-
 const addImg = document.querySelector(".gallery");
 const newImage = images
   .map(({ url, alt }) => {
